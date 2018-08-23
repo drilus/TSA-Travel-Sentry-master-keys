@@ -8,17 +8,21 @@ Security researchers have [long warned](http://www.crypto.com/masterkey.html) of
 
 The TSA has issued an official statement making it known that [they don't even care that we've done this](https://theintercept.com/2015/09/16/tsa-doesnt-really-care-luggage-locks-hacked/), as the now-pointless locks affect theft prevention, not airline safety. 
 
-> **[!] Important**: These keys have not been widely-tested, though we do have reports that many [do work](https://twitter.com/bernard/status/641662069427847168) from at least [one source](http://arstechnica.com/security/2015/09/video-3d-printed-tsa-travel-sentry-keys-really-do-open-tsa-locks/). 006 May never work, as we're not sure of the depth of the "dimples," and also consumer-grade 3D printers may not be up to such finely-detailed tasks.
+> **[!] Important**: These keys have not been widely-tested, though we do have reports that many [do work](https://twitter.com/bernard/status/641662069427847168) from at least [one source](http://arstechnica.com/security/2015/09/video-3d-printed-tsa-travel-sentry-keys-really-do-open-tsa-locks/). 006 may never work as a 3D-printed key, as 3D printers may never be up to such finely-detailed tasks.
 
 > Added the stubby versions of the keys by [MS3FGX](https://github.com/MS3FGX), which appear to [still work fine !](https://twitter.com/JimyLongs/status/641820527892414464)
 
 ### Thanks:
-- Special thanks to [@darksim905](https://twitter.com/darksim905) and [@irongeek_adc](https://twitter.com/irongeek_adc/status/640907196197404672) and some anonymous others who all sent us images and information surrounding these keys. Also, [@j0hnnyXm4s](https://twitter.com/J0hnnyXm4s) for his key size ratios and issue management / advice.
+- Special thanks to [@darksim905](https://twitter.com/darksim905) and [@irongeek_adc](https://twitter.com/irongeek_adc/status/640907196197404672) and some anonymous others who all sent us images and information surrounding these keys. Also, [@j0hnnyXm4s](https://twitter.com/J0hnnyXm4s) for his key size ratios, 3D print testing, and issue management / advice.
 
 
 3D TSA "Safe Skies" master key
 =========
 Safe Skies manufactures TSA-approved locks under their own standard, competing with Travel Sentry, and has even sued Travel Sentry for patent infringement. They have a much smaller market share than Travel Sentry. These locks can be identified by noting the words "Safe Skies" next to the keyway, in a similar location as the Travel Sentry "TSA00N" notations. All available information indicates only one override/master key exists for their entire system. Armed with this knowledge and a large hammer (no, really), [@darksim905](https://twitter.com/darksim905) and [Nite0wl](https://twitter.com/nite0wl_2600) reverse-engineered the master key bitting, and created 3D files suitable for printing. They presented their findings along with [@j0hnnyXm4s](https://twitter.com/J0hnnyXm4s) at the 11th Hackers of Planet Earth conference in New York City, in July of 2016.
+
+TSA006 Revamp
+=========
+Around November of 2017,[Nite0wl](https://twitter.com/nite0wl_2600) discovered TSA006 padlocks being sold for use with standard luggage. Before this 006 had only been found built-in to high-end luggage, which made tweaking cost-prohibitive. He dismantled several of these locks and determined that an extremely low number of variations in the pin configurations. This allowed for the quick discerning of a master key, the measurements of which were sent to [@j0hnnyXm4s](https://twitter.com/J0hnnyXm4s). In August 2018, [David Freitag](https://twitter.com/dvdfreitag) completed the CAD redesign and added it to Johnny's repoistory. This key is currently undergoing 3D print testing, but Nite0wl has successfully used his measurements to hand-mill functional metal keys.  
 
 
 PROBLEM REPORTING
